@@ -1,0 +1,53 @@
+﻿@model IEnumerable<yemeksepeti.Models.yemek>
+
+@{
+    Layout = "~/Views/Shared/RestorantLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Yemekler</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Yeni Oluştur", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.yemek_adı)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fiyat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.restoran_adı)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.yemek_adı)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fiyat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.restoran_adı)
+            </td>
+            <td>
+                @Html.ActionLink("Düzenle", "Edit", new { id=item.yemek_id }) |
+                @Html.ActionLink("Detaylar", "Details", new { id=item.yemek_id }) |
+                @Html.ActionLink("Sil", "Delete", new { id=item.yemek_id })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

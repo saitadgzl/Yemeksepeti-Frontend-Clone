@@ -1,0 +1,59 @@
+﻿@model yemeksepeti.Models.restoranlar
+
+@{
+    Layout = "~/Views/Shared/UyeLayout.cshtml";
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detaylar</title>
+</head>
+<body>
+    <div>
+        <h4>Restoranlar</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.restoranadı)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.restoranadı)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.minimumsiparis)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.minimumsiparis)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.restoranpuan)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.restoranpuan)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.acıklama)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.acıklama)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+       
+        @Html.ActionLink("Listeye Dön", "Index")
+    </p>
+</body>
+</html>

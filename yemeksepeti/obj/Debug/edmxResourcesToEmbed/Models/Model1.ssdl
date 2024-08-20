@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="yemeksepetiModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="restoran">
+    <Key>
+      <PropertyRef Name="restoran_id" />
+    </Key>
+    <Property Name="restoran_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="restoran_adı" Type="varchar" MaxLength="50" />
+    <Property Name="sifre" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="restoranlar">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="restoranadı" Type="nvarchar" MaxLength="50" />
+    <Property Name="minimumsiparis" Type="int" />
+    <Property Name="restoranpuan" Type="float" />
+    <Property Name="acıklama" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="siparis">
+    <Key>
+      <PropertyRef Name="siparis_id" />
+    </Key>
+    <Property Name="siparis_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="int" />
+    <Property Name="yemek_id" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_name" Type="varchar" MaxLength="50" />
+    <Property Name="password" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="yemek">
+    <Key>
+      <PropertyRef Name="yemek_id" />
+    </Key>
+    <Property Name="yemek_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="yemek_adı" Type="varchar" MaxLength="50" />
+    <Property Name="fiyat" Type="int" />
+    <Property Name="restoran_adı" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_siparis_user">
+    <End Role="user" Type="Self.user" Multiplicity="0..1" />
+    <End Role="siparis" Type="Self.siparis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="siparis">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="yemeksepetiModelStoreContainer">
+    <EntitySet Name="restoran" EntityType="Self.restoran" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="restoranlar" EntityType="Self.restoranlar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="siparis" EntityType="Self.siparis" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="yemek" EntityType="Self.yemek" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_siparis_user" Association="Self.FK_siparis_user">
+      <End Role="user" EntitySet="user" />
+      <End Role="siparis" EntitySet="siparis" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,71 @@
+﻿@model yemeksepeti.Models.baglanti
+
+@{
+    Layout = "~/Views/Shared/RestorantLayout.cshtml";
+}
+
+<br />
+@using (Html.BeginForm("Create", "Home", FormMethod.Post))
+{
+
+    <div class="container">
+
+        <div class="form-group">
+
+            @Html.DropDownListFor(Model => Model.userid, Model.userList, "Müşteri", new { @class = "form-control" })
+
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="form-group">
+            @Html.DropDownListFor(Model => Model.siparisID, new SelectList(""), "Sipariş", new { @class = "form-control" })
+
+        </div>
+
+    </div>
+
+}
+
+<html>
+<body>
+
+
+
+    @section scripts
+{
+        <script type="text/javascript">
+            $(document).ready(function () {
+
+                $('#userid').change(function () {
+                    var id = $(this).val();
+                    var siparisList = $('#siparisID');
+                    siparisList.empty();
+
+                    $.ajax({
+                        url: '/home/GetsiparisList',
+                        type: 'POST',
+                        dataType: 'json',
+                        data: { 'id': id },
+                        success: function (data) {
+                            $.each(data, function (siparisdropdown, option) {
+                                siparisList.append('<option value =' + option.Value + '>' + option.Text + '</option>');
+
+                            })
+
+                        }
+
+
+                    });
+
+
+                });
+
+            });
+        </script>
+
+    }
+</body>
+</html>

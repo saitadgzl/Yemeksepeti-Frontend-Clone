@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "~/Views/Shared/RestorantLayout.cshtml";
+}
+
+<h2>Çevrimiçi Kullanıcı Sayısı: @ViewBag.OnlineUyeSayisi</h2>
+@if (Session["restoran_adı"] != null)
+{
+<text>
+
+    <h1> &nbsp;&nbsp;</h1>
+    <h1>@Session["restoran_adı"].ToString() Yönetici Sayfasına Hoşgeldiniz.</h1>
+
+
+</text>}

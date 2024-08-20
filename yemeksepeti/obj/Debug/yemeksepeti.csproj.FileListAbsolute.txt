@@ -1,0 +1,258 @@
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\yemeksepeti.dll.config
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\yemeksepeti.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\yemeksepeti.pdb
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\csc.exe
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\csc.exe.config
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\csc.rsp
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\csi.exe
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\csi.exe.config
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\csi.rsp
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.AppContext.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Console.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.IO.Compression.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Net.Http.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.ValueTuple.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\vbc.exe
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\vbc.exe.config
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\vbc.rsp
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\VBCSCompiler.exe
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\Antlr3.Runtime.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\EntityFramework.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\EntityFramework.SqlServer.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\Newtonsoft.Json.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Web.Helpers.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Web.Mvc.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Web.Optimization.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Web.Razor.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Web.WebPages.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Web.WebPages.Razor.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\WebGrease.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\EntityFramework.xml
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\EntityFramework.SqlServer.xml
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Web.Helpers.xml
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Web.Mvc.xml
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Web.Optimization.xml
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Web.Razor.xml
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Web.WebPages.xml
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Web.WebPages.Razor.xml
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\Newtonsoft.Json.xml
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\Antlr3.Runtime.pdb
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\obj\Debug\yemeksepeti.csproj.CoreCompileInputs.cache
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\obj\Debug\yemeksepeti.csproj.CopyComplete
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\obj\Debug\yemeksepeti.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\obj\Debug\yemeksepeti.pdb
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\obj\Debug\yemeksepeti.csproj.AssemblyReference.cache
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Linq.Dynamic.Core.dll
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Linq.Dynamic.Core.pdb
+C:\Users\Berkay\source\repos\yemeksepeti\yemeksepeti\bin\System.Linq.Dynamic.Core.xml
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\yemeksepeti.dll.config
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\yemeksepeti.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\yemeksepeti.pdb
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\csc.exe
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\csc.exe.config
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\csc.rsp
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\csi.exe
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\csi.exe.config
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\csi.rsp
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.AppContext.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Console.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.IO.Compression.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Net.Http.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Net.Sockets.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.ValueTuple.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Xml.XPath.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\vbc.exe
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\vbc.exe.config
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\vbc.rsp
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\VBCSCompiler.exe
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\Antlr3.Runtime.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\EntityFramework.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\EntityFramework.SqlServer.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\Newtonsoft.Json.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Linq.Dynamic.Core.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Web.Helpers.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Web.Mvc.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Web.Optimization.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Web.Razor.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Web.WebPages.Deployment.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Web.WebPages.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Web.WebPages.Razor.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\WebGrease.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\EntityFramework.xml
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\EntityFramework.SqlServer.xml
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Linq.Dynamic.Core.pdb
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Linq.Dynamic.Core.xml
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Web.Helpers.xml
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Web.Mvc.xml
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Web.Optimization.xml
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Web.Razor.xml
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Web.WebPages.xml
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Web.WebPages.Deployment.xml
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\System.Web.WebPages.Razor.xml
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\Newtonsoft.Json.xml
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\Antlr3.Runtime.pdb
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\obj\Debug\yemeksepeti.csproj.AssemblyReference.cache
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\obj\Debug\yemeksepeti.csproj.CoreCompileInputs.cache
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\obj\Debug\yemeksepeti.csproj.CopyComplete
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\obj\Debug\yemeksepeti.dll
+C:\Users\msait\OneDrive\Masaüstü\proje\yemeksepeti\obj\Debug\yemeksepeti.pdb
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\yemeksepeti.dll.config
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\yemeksepeti.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\yemeksepeti.pdb
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\csc.exe
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\csc.exe.config
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\csc.rsp
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\csi.exe
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\csi.exe.config
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\csi.rsp
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.AppContext.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Console.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.IO.Compression.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Net.Http.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Net.Sockets.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.ValueTuple.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Xml.XPath.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\vbc.exe
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\vbc.exe.config
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\vbc.rsp
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\VBCSCompiler.exe
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\Antlr3.Runtime.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\EntityFramework.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\EntityFramework.SqlServer.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\Newtonsoft.Json.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Linq.Dynamic.Core.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Web.Helpers.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Web.Mvc.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Web.Optimization.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Web.Razor.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Web.WebPages.Deployment.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Web.WebPages.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Web.WebPages.Razor.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\WebGrease.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\EntityFramework.xml
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\EntityFramework.SqlServer.xml
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Linq.Dynamic.Core.pdb
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Linq.Dynamic.Core.xml
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Web.Helpers.xml
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Web.Mvc.xml
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Web.Optimization.xml
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Web.Razor.xml
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Web.WebPages.xml
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Web.WebPages.Deployment.xml
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\System.Web.WebPages.Razor.xml
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\Newtonsoft.Json.xml
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\Antlr3.Runtime.pdb
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\obj\Debug\yemeksepeti.csproj.AssemblyReference.cache
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\obj\Debug\yemeksepeti.csproj.CoreCompileInputs.cache
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\obj\Debug\yemeksepeti.csproj.CopyComplete
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\obj\Debug\yemeksepeti.dll
+C:\Users\msait\OneDrive\Masaüstü\internet prog\yemeksepeti\obj\Debug\yemeksepeti.pdb

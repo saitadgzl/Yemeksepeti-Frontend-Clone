@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="yemeksepetiModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="restoran">
+          <Key>
+            <PropertyRef Name="restoran_id" />
+          </Key>
+          <Property Name="restoran_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="restoran_adı" Type="varchar" MaxLength="50" />
+          <Property Name="sifre" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="restoranlar">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="restoranadı" Type="nvarchar" MaxLength="50" />
+          <Property Name="minimumsiparis" Type="int" />
+          <Property Name="restoranpuan" Type="float" />
+          <Property Name="acıklama" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="siparis">
+          <Key>
+            <PropertyRef Name="siparis_id" />
+          </Key>
+          <Property Name="siparis_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="user_id" Type="int" />
+          <Property Name="yemek_id" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="user_id" />
+          </Key>
+          <Property Name="user_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="user_name" Type="varchar" MaxLength="50" />
+          <Property Name="password" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="yemek">
+          <Key>
+            <PropertyRef Name="yemek_id" />
+          </Key>
+          <Property Name="yemek_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="yemek_adı" Type="varchar" MaxLength="50" />
+          <Property Name="fiyat" Type="int" />
+          <Property Name="restoran_adı" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_siparis_user">
+          <End Role="user" Type="Self.user" Multiplicity="0..1" />
+          <End Role="siparis" Type="Self.siparis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="user">
+              <PropertyRef Name="user_id" />
+            </Principal>
+            <Dependent Role="siparis">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="yemeksepetiModelStoreContainer">
+          <EntitySet Name="restoran" EntityType="Self.restoran" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="restoranlar" EntityType="Self.restoranlar" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="siparis" EntityType="Self.siparis" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="yemek" EntityType="Self.yemek" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_siparis_user" Association="Self.FK_siparis_user">
+            <End Role="user" EntitySet="user" />
+            <End Role="siparis" EntitySet="siparis" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="yemeksepetiModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="restoran">
+          <Key>
+            <PropertyRef Name="restoran_id" />
+          </Key>
+          <Property Name="restoran_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="restoran_adı" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="sifre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="restoranlar">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="restoranadı" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="minimumsiparis" Type="Int32" />
+          <Property Name="restoranpuan" Type="Double" />
+          <Property Name="acıklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="siparis">
+          <Key>
+            <PropertyRef Name="siparis_id" />
+          </Key>
+          <Property Name="siparis_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="user_id" Type="Int32" />
+          <Property Name="yemek_id" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="user" Relationship="Self.FK_siparis_user" FromRole="siparis" ToRole="user" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="user_id" />
+          </Key>
+          <Property Name="user_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="user_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="siparis" Relationship="Self.FK_siparis_user" FromRole="user" ToRole="siparis" />
+        </EntityType>
+        <EntityType Name="yemek">
+          <Key>
+            <PropertyRef Name="yemek_id" />
+          </Key>
+          <Property Name="yemek_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="yemek_adı" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="fiyat" Type="Int32" />
+          <Property Name="restoran_adı" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK_siparis_user">
+          <End Role="user" Type="Self.user" Multiplicity="0..1" />
+          <End Role="siparis" Type="Self.siparis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="user">
+              <PropertyRef Name="user_id" />
+            </Principal>
+            <Dependent Role="siparis">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="yemeksepetiEntities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="restoran" EntityType="Self.restoran" />
+          <EntitySet Name="restoranlar" EntityType="Self.restoranlar" />
+          <EntitySet Name="siparis" EntityType="Self.siparis" />
+          <EntitySet Name="user" EntityType="Self.user" />
+          <EntitySet Name="yemek" EntityType="Self.yemek" />
+          <AssociationSet Name="FK_siparis_user" Association="Self.FK_siparis_user">
+            <End Role="user" EntitySet="user" />
+            <End Role="siparis" EntitySet="siparis" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="yemeksepetiModelStoreContainer" CdmEntityContainer="yemeksepetiEntities2">
+          <EntitySetMapping Name="restoran">
+            <EntityTypeMapping TypeName="yemeksepetiModel.restoran">
+              <MappingFragment StoreEntitySet="restoran">
+                <ScalarProperty Name="restoran_id" ColumnName="restoran_id" />
+                <ScalarProperty Name="restoran_adı" ColumnName="restoran_adı" />
+                <ScalarProperty Name="sifre" ColumnName="sifre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="restoranlar">
+            <EntityTypeMapping TypeName="yemeksepetiModel.restoranlar">
+              <MappingFragment StoreEntitySet="restoranlar">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="restoranadı" ColumnName="restoranadı" />
+                <ScalarProperty Name="minimumsiparis" ColumnName="minimumsiparis" />
+                <ScalarProperty Name="restoranpuan" ColumnName="restoranpuan" />
+                <ScalarProperty Name="acıklama" ColumnName="acıklama" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="siparis">
+            <EntityTypeMapping TypeName="yemeksepetiModel.siparis">
+              <MappingFragment StoreEntitySet="siparis">
+                <ScalarProperty Name="siparis_id" ColumnName="siparis_id" />
+                <ScalarProperty Name="user_id" ColumnName="user_id" />
+                <ScalarProperty Name="yemek_id" ColumnName="yemek_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="user">
+            <EntityTypeMapping TypeName="yemeksepetiModel.user">
+              <MappingFragment StoreEntitySet="user">
+                <ScalarProperty Name="user_id" ColumnName="user_id" />
+                <ScalarProperty Name="user_name" ColumnName="user_name" />
+                <ScalarProperty Name="password" ColumnName="password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="yemek">
+            <EntityTypeMapping TypeName="yemeksepetiModel.yemek">
+              <MappingFragment StoreEntitySet="yemek">
+                <ScalarProperty Name="yemek_id" ColumnName="yemek_id" />
+                <ScalarProperty Name="yemek_adı" ColumnName="yemek_adı" />
+                <ScalarProperty Name="fiyat" ColumnName="fiyat" />
+                <ScalarProperty Name="restoran_adı" ColumnName="restoran_adı" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<yemeksepeti.Models.yemek>
+
+
+@{ Layout = "~/Views/Shared/UyeLayout.cshtml";
+    var ornekgrid = new WebGrid(source: Model, canPage: true, rowsPerPage: 20);
+    ornekgrid.Pager(WebGridPagerModes.All);
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Arama</title>
+</head>
+<body>
+    <h2>Yemekler</h2>
+    <h3> Toplam kayıt Sayısı : @ViewBag.TotalRows</h3>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse">
+                @using (Html.BeginForm("gridsearch", "Yemekler_Uye", FormMethod.Get, new { @class = "navbar-form navbar left " }))
+                {
+                    <div class="form-group">
+                        <input type="text" name="search" value="@ViewBag.search" class="form-control" placeholder="search" />
+
+                    </div>
+                    <button type="submit" value="ARA" class="btn  btn-success"></button>}
+
+            </div>
+        </div>
+
+    </nav>
+
+    <div>
+
+        @ornekgrid.Table(
+         tableStyle: "table table-responsive table-bordered",
+     columns: ornekgrid.Columns(
+ ornekgrid.Column(columnName: "yemek_adı", header: "yemek adı"),
+ ornekgrid.Column(columnName: "fiyat", header: "fiyatı"),
+ ornekgrid.Column(columnName: "restoran_adı", header: "restoran adı")
+
+ ))
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+﻿@model IEnumerable<yemeksepeti.Models.restoranlar>
+
+@{
+    Layout = "~/Views/Shared/UyeLayout.cshtml";
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+   
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.restoranadı)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.minimumsiparis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.restoranpuan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.acıklama)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.restoranadı)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.minimumsiparis)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.restoranpuan)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.acıklama)
+                </td>
+                <td>
+                   
+                    @Html.ActionLink("Detaylar", "Details", new { id = item.id }) 
+                   
+                </td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

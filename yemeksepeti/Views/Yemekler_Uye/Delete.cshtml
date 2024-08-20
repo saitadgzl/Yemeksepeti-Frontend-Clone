@@ -1,0 +1,56 @@
+﻿@model yemeksepeti.Models.yemek
+
+@{
+    Layout = "~/Views/Shared/UyeLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Sil</title>
+</head>
+<body>
+    <h3>Silmek istediğinize emin misiniz?</h3>
+    <div>
+        <h4>Yemekler</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.yemek_adı)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.yemek_adı)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.fiyat)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.fiyat)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.restoran_adı)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.restoran_adı)
+            </dd>
+    
+        </dl>
+    
+        @using (Html.BeginForm()) {
+            @Html.AntiForgeryToken()
+    
+            <div class="form-actions no-color">
+                <input type="submit" value="Sil" class="btn btn-default" /> |
+                @Html.ActionLink("Listeye Dön", "Index")
+            </div>
+        }
+    </div>
+</body>
+</html>

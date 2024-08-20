@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "~/Views/Shared/UyeLayout.cshtml";
+}
+
+
+
+<h2>Online Kullanıcı Sayısı: @ViewBag.OnlineUyeSayisi</h2>
+@if (Session["user_name"] != null)
+{
+<text>
+    <h1>Hoşgeldin, @Session["user_name"].ToString()</h1>
+
+
+</text>}

@@ -1,0 +1,136 @@
+﻿@model yemeksepeti.Models.user
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/assets/css/style-starter.css">
+    <style>
+
+        #special-heading {
+            color: darkblue;
+        }
+
+        .footer-agileits {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .wthree-form {
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            background: #fff;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    </style>
+</head>
+
+<header id="site-header" class="fixed-top">
+    <section class="w3l-header-4">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <h1>
+                    <a class="navbar-brand" href="/">
+                        <span>Yemek</span>sepeti
+                    </a>
+                </h1>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="fa icon-expand fa-bars"></span>
+                    <span class="fa icon-close fa-times"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Giris/Hakkinda">Hakkımızda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Giris/Servisler">Servislerimiz</a>
+                        </li>
+
+                    </ul>
+                    <ul class="navbar-nav search-right mt-lg-0 mt-2">
+                        <li class="nav-item">
+                            <a href="~/Giris/RestorantGiris"
+                               class="btn btn-primary btn-style d-none d-lg-block btn-style mr-2">
+                                <span class="" aria-hidden="true"></span>   Restorant Girişi
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- toggle switch for light and dark theme -->
+                <div class="mobile-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+    </section>
+</header>
+
+
+<body>
+    <div class="wthree-form">
+        <h3 id="special-heading">Üye Girişi</h3>
+        <div class="w3l-login form">
+            @using (Html.BeginForm("UyeGiris", "Giris", FormMethod.Post))
+            {
+                <div class="form-sub-w3" style="margin-top: 10px;">
+                    <input type="text" name="user_name" placeholder="Kullanıcı Adı" required="" />
+                </div>
+                <div class="form-sub-w3" style="margin-top: 10px;">
+                    <input type="password" name="password" placeholder="Şifre" required="" />
+                </div>
+
+                <div class="submit-agileits" style="margin-top: 10px;">
+                    <input type="submit" value="Giriş Yap">
+                </div>
+
+            }
+        </div>
+    </div>
+    <div class="col-lg-4 bottom-right-grids mt-lg-0 mt-5">
+        <img src="/assets/images/pic3.png" alt="" class="img-fluid" />
+    </div>
+    <div class="footer-agileits">
+        <p>Yemeksepeti Müşteri Giriş Ekranı | Mehmet Sait Adıgüzel</p>
+    </div>
+
+    <script src="/assets/js/theme-change.js"></script>
+
+</body>
+</html>

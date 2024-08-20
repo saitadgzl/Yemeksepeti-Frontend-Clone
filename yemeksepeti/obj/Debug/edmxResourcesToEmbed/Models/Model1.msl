@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="yemeksepetiModelStoreContainer" CdmEntityContainer="yemeksepetiEntities2">
+    <EntitySetMapping Name="restoran">
+      <EntityTypeMapping TypeName="yemeksepetiModel.restoran">
+        <MappingFragment StoreEntitySet="restoran">
+          <ScalarProperty Name="restoran_id" ColumnName="restoran_id" />
+          <ScalarProperty Name="restoran_adı" ColumnName="restoran_adı" />
+          <ScalarProperty Name="sifre" ColumnName="sifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="restoranlar">
+      <EntityTypeMapping TypeName="yemeksepetiModel.restoranlar">
+        <MappingFragment StoreEntitySet="restoranlar">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="restoranadı" ColumnName="restoranadı" />
+          <ScalarProperty Name="minimumsiparis" ColumnName="minimumsiparis" />
+          <ScalarProperty Name="restoranpuan" ColumnName="restoranpuan" />
+          <ScalarProperty Name="acıklama" ColumnName="acıklama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="siparis">
+      <EntityTypeMapping TypeName="yemeksepetiModel.siparis">
+        <MappingFragment StoreEntitySet="siparis">
+          <ScalarProperty Name="siparis_id" ColumnName="siparis_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="yemek_id" ColumnName="yemek_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user">
+      <EntityTypeMapping TypeName="yemeksepetiModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="yemek">
+      <EntityTypeMapping TypeName="yemeksepetiModel.yemek">
+        <MappingFragment StoreEntitySet="yemek">
+          <ScalarProperty Name="yemek_id" ColumnName="yemek_id" />
+          <ScalarProperty Name="yemek_adı" ColumnName="yemek_adı" />
+          <ScalarProperty Name="fiyat" ColumnName="fiyat" />
+          <ScalarProperty Name="restoran_adı" ColumnName="restoran_adı" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
